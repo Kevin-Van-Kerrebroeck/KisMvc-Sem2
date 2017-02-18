@@ -11,7 +11,12 @@ namespace Project_WerkenMetDatabase.Controllers
     {
         ApplicationDbContext db = new ApplicationDbContext();
 
-        public ActionResult Index(string sortOrder)
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Presidents(string sortOrder)
         {
             var Presidents = db.Presidents.ToList().OrderBy(p => p.StartDate);
 
@@ -34,27 +39,22 @@ namespace Project_WerkenMetDatabase.Controllers
             return View(Presidents);
         }
 
-        public ActionResult About()
+        public ActionResult Categories()
         {
-            //Ophalen van file naam
-            string vFullFileName = Server.MapPath("/Data/TestData.txt");
-
-            //Lees de inhoud van de File
-            string[] vInhoud = System.IO.File.ReadAllLines(vFullFileName);
-
-            //Viewbaggen
-            foreach (string line in vInhoud)
-            {
-                ViewBag.Info += line + "<br/>";
-            }
-            
-            return View();
+           
+            return View(db.Categories.ToList());
         }
 
-        public ActionResult Contact()
+        public ActionResult Nominees()
         {
-            ViewBag.Message = "Your contact page.";
+            
 
+            return View(db.Nominees.ToList());
+        }
+
+        public ActionResult RunSeed()
+        {
+            ViewBag.Info = new SeedData().RunSeed();
             return View();
         }
     }

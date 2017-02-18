@@ -26,6 +26,15 @@ namespace Project_WerkenMetDatabase.Models
         {
 
         }
+
+        public President(string[] fields)
+        {
+            Name = fields[1];
+            StartDate = DateTime.Parse(fields[2]);
+            EndDate = DateTime.Parse(fields[3]);
+            Opmerking = fields[4];
+
+        }
         //public methods
         public string GetRegeerPeriode()
         {

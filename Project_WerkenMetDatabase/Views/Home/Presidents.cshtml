@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Project_WerkenMetDatabase.Models.President>
+
+<style>
+    .table-hover tbody tr:hover td {
+        background-color: lightblue;
+    }
+
+    .bold {
+        text-decoration: none;
+        color: black;
+    }
+
+        .bold:hover {
+            text-decoration: none;
+            color: black;
+        }
+
+        .bold:visited {
+            text-decoration: none;
+            color: black;
+        }
+</style>
+
+
+
+<h2>De 10 Bekendste presidenten van de United States of America</h2>
+<hr />
+<div>
+    <table class="table table-striped table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>ID @Html.ActionLink(" ", "Presidents", "Home", new { sortOrder = "sortByID" }, new { @class = "bold glyphicon glyphicon-sort" })</th>
+                <th>Naam @Html.ActionLink(" ", "Presidents", "Home", new { sortOrder = "sortByName" }, new { @class = "bold glyphicon glyphicon-sort" })</th>
+                <th>Regeer Periode @Html.ActionLink(" ", "Presidents", "Home", new { sortOrder = "sortByDate" }, new { @class = "bold glyphicon glyphicon-sort" })</th>
+                <th>Opmerking</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.GetRegeerPeriode()</td>
+                    <td>@item.Opmerking</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>

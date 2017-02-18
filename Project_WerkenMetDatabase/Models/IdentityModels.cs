@@ -31,5 +31,7 @@ namespace Project_WerkenMetDatabase.Models
         }
 
         public DbSet<President> Presidents { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Nominee> Nominees { get; set; }
     }
 }

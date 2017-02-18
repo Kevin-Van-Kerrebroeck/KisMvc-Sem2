@@ -1,0 +1,24 @@
+﻿1;Best Actor in a Leading Role
+2;Best Actor in a Supporting Role
+3;Best Actress in a Leading Role
+4;Best Actress in a Supporting Role
+5;Best Animated Feature
+6;Best Animated Short Film
+7;Best Cinematography
+8;Best Costume Design
+9;Best Director
+10;Best Documentary Feature
+11;Best Documentary Short
+12;Best Film Editing
+13;Best Foreign Language Film
+14;Best Live Action Short Film
+15;Best Makeup and Hairstyling
+16;Best Original Score
+17;Best Original Song
+18;Best Picture
+19;Best Production Design
+20;Best Sound Editing
+21;Best Sound Mixing
+22;Best Visual Effects
+23;Best Adapted Screenplay
+24;Best Original Screenplay

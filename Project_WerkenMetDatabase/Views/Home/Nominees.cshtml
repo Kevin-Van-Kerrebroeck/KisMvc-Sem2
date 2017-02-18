@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Project_WerkenMetDatabase.Models.Nominee>
+
+
+<style>
+    .table-hover tbody tr:hover td {
+        background-color: lightblue;
+    }
+</style>
+
+<h1>Oscars Nominees</h1>
+<hr />
+
+<table class="table table-striped table-hover table-bordered ">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.OscarYear</td>
+            <td>@item.CategoryId</td>
+            <td>@item.CategoryName</td>
+            <td>@item.Winner</td>
+            <td>@item.NomineeName</td>
+            <td>@item.FromTheMovie</td>
+        </tr>
+    }
+</table>

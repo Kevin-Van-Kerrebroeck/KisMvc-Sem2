@@ -1,9 +1,9 @@
-1,George Washington,1789 - 1796,De eerste president van de USA
-2,Richard Nixon,1969 - 1974,President tijdens de Vietnam oorlog
-3,Bill Clinton,1993 - 2001,Heeft geen sex gehad
-4,Barack Obama,2009 - 2017,De eerste zwarte president
-5,Donald Trump,2017 - 2017,Gaat een muur bouwen
-6,Franklin D. Roosevelt,1933 - 1945,President tijdends Wereld Oorlog 2
-7,Dwight D. Eisenhower,1953 - 1961,Generaal tijdens Wereld Oorlog 2
-8,Ulysses S. Grant,1869 - 1877,Generaal tijdens de burger oorlog
-9,Abraham Lincoln,1861 - 1865,Afschaffing van slavernij
+1,George Washington,01/08/1789,01/08/1796,De eerste president van de USA
+2,Richard Nixon,01/08/1969,01/08/1974,President tijdens de Vietnam oorlog
+3,Bill Clinton,01/08/1993,01/08/2001,Heeft geen sex gehad
+4,Barack Obama,01/08/2009,01/08/2017,De eerste zwarte president
+5,Donald Trump,01/08/2017,01/08/2017,Gaat een muur bouwen
+6,Franklin D. Roosevelt,01/08/1933,01/08/1945,President tijdends Wereld Oorlog 2
+7,Dwight D. Eisenhower,01/08/1953,01/08/1961,Generaal tijdens Wereld Oorlog 2
+8,Ulysses S. Grant,01/08/1869,01/08/1877,Generaal tijdens de burger oorlog
+9,Abraham Lincoln,01/08/1861,01/08/1865,Afschaffing van slavernij
