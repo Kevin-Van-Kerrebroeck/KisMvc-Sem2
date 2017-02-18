@@ -27,6 +27,13 @@ namespace Project_WerkenMetDatabase.Models
             return "Seed... Complete!";
         }
 
+        public string RemoveSeedData<T>() where T:class
+        {
+            db.Set<T>().RemoveRange(db.Set<T>());
+            db.SaveChanges();
+            return "Data bye bye";
+        }
+
         // Private Methods
 
         private void RunSeedFromFile<T>(string fileName, char splitOn) where T:class, new()

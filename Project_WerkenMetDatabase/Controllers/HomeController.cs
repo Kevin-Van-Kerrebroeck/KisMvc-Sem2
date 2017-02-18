@@ -57,5 +57,19 @@ namespace Project_WerkenMetDatabase.Controllers
             ViewBag.Info = new SeedData().RunSeed();
             return View();
         }
+
+        public ActionResult RunSeedRemove()
+        {
+            var sd = new SeedData();
+
+            sd.RemoveSeedData<President>();
+            sd.RemoveSeedData<Nominee>();
+            sd.RemoveSeedData<Category>();
+
+            ViewBag.Info = "Data byebye";
+            return View();
+        }
+
+
     }
 }
