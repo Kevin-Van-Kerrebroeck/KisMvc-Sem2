@@ -1,4 +1,5 @@
-ï»¿2016;1;Best Actor in a Leading Role;w;Leonardo DiCaprio;The Revenant as Hugh Glass  
+OscarYear;CategoryId;CategoryName;W;Nominee;FromTheMovie
+2016;1;Best Actor in a Leading Role;w;Leonardo DiCaprio;The Revenant as Hugh Glass  
 2016;1;Best Actor in a Leading Role;;Bryan Cranston;Trumbo as Dalton Trumbo
 2016;1;Best Actor in a Leading Role;;Matt Damon;The Martian as Mark Watney
 2016;1;Best Actor in a Leading Role;;Michael Fassbender;Steve Jobs as Steve Jobs
@@ -20,7 +21,7 @@
 2016;4;Best Actress in a Supporting Role;;Kate Winslet;Steve Jobs as Joanna Hoffman
 2016;5;Best Animated Feature Film;w;Inside Out;Pete Docter and Jonas Rivera  
 2016;5;Best Animated Feature Film;;Anomalisa;Charlie Kaufman, Duke Johnson, and Rosa Tran
-2016;5;Best Animated Feature Film;;Boy & the World;AlÃª Abreu
+2016;5;Best Animated Feature Film;;Boy & the World;Alê Abreu
 2016;5;Best Animated Feature Film;;Shaun the Sheep Movie;Mark Burton and Richard Starzak
 2016;5;Best Animated Feature Film;;When Marnie Was There;Hiromasa Yonebayashi and Yoshiaki Nishimura
 2016;6;Best Animated Short Film;w;Bear Story;Pato Escala Pierart and Gabriel Osorio Vargas  
@@ -38,14 +39,14 @@
 2016;8;Best Costume Design;;Cinderella;Sandy Powell
 2016;8;Best Costume Design;;The Danish Girl;Paco Delgado
 2016;8;Best Costume Design;;The Revenant;Jacqueline West
-2016;9;Best Director;w;Alejandro G. IÃ±Ã¡rritu;The Revenant  
+2016;9;Best Director;w;Alejandro G. Iñárritu;The Revenant  
 2016;9;Best Director;;Adam McKay;The Big Short
 2016;9;Best Director;;George Miller;Mad Max: Fury Road
 2016;9;Best Director;;Lenny Abrahamson;Room
 2016;9;Best Director;;Tom McCarthy;Spotlight
 2016;10;Best Documentary Feature;w;Amy;Asif Kapadia and James Gay-Rees  
 2016;10;Best Documentary Feature;;Cartel Land;Matthew Heineman and Tom Yellin
-2016;10;Best Documentary Feature;;The Look of Silence;Joshua Oppenheimer and Signe Byrge SÃ¸rensen
+2016;10;Best Documentary Feature;;The Look of Silence;Joshua Oppenheimer and Signe Byrge Sørensen
 2016;10;Best Documentary Feature;;What Happened, Miss Simone?;Liz Garbus, Amy Hobby, and Justin Wilkes
 2016;10;Best Documentary Feature;;Winter on Fire: Ukraine's Fight for Freedom;Evgeny Afineevsky and Den Tolmor
 2016;11;Best Documentary Short Subject;w;A Girl in the River: The Price of Forgiveness;Sharmeen Obaid-Chinoy  
@@ -53,14 +54,14 @@
 2016;11;Best Documentary Short Subject;;Chau, Beyond the Lines;Courtney Marsh and Jerry Franck
 2016;11;Best Documentary Short Subject;;Claude Lanzmann: Spectres of the Shoah;Adam Benzine
 2016;11;Best Documentary Short Subject;;Last Day of Freedom;Dee Hibbert-Jones and Nomi Talisman
-2016;12;Best Film Editing;w;Mad Max: Fury RoadÂ ;Margaret Sixel
-2016;12;Best Film Editing;;The Big ShortÂ ;Hank Corwin
-2016;12;Best Film Editing;;The RevenantÂ ;Stephen Mirrione
+2016;12;Best Film Editing;w;Mad Max: Fury Road ;Margaret Sixel
+2016;12;Best Film Editing;;The Big Short ;Hank Corwin
+2016;12;Best Film Editing;;The Revenant ;Stephen Mirrione
 2016;12;Best Film Editing;;Spotlight;Tom McArdle
-2016;12;Best Film Editing;;Star Wars: The Force AwakensÂ ;Maryann Brandon and Mary Jo Markey
-2016;13;Best Foreign Language Film;w;Son of Saul (Hungary) in Hungarian;LÃ¡szlÃ³ Nemes  
+2016;12;Best Film Editing;;Star Wars: The Force Awakens ;Maryann Brandon and Mary Jo Markey
+2016;13;Best Foreign Language Film;w;Son of Saul (Hungary) in Hungarian;László Nemes  
 2016;13;Best Foreign Language Film;;Embrace of the Serpent (Colombia) in Spanish;Ciro Guerra
-2016;13;Best Foreign Language Film;;Mustang (France) in Turkish;Deniz Gamze ErgÃ¼ven
+2016;13;Best Foreign Language Film;;Mustang (France) in Turkish;Deniz Gamze Ergüven
 2016;13;Best Foreign Language Film;;Theeb (Jordan) in Arabic;Naji Abu Nowar
 2016;13;Best Foreign Language Film;;A War (Denmark) in Danish;Tobias Lindholm
 2016;14;Best Live Action Short Film;w;Stutterer;Benjamin Cleary and Serena Armitage  
@@ -70,11 +71,11 @@
 2016;14;Best Live Action Short Film;;Shok;Jamie Donoughue
 2016;15;Best Makeup and Hairstyling;w;Mad Max: Fury Road;Lesley Vanderwalt, Elka Wardega, and Damian Martin  
 2016;15;Best Makeup and Hairstyling;;The 100-Year-Old Man Who Climbed Out the Window and Disappeared;Love Larson and Eva von Bahr
-2016;15;Best Makeup and Hairstyling;;The Revenant;SiÃ¢n Grigg, Duncan Jarman, and Robert Pandini
+2016;15;Best Makeup and Hairstyling;;The Revenant;Siân Grigg, Duncan Jarman, and Robert Pandini
 2016;16;Best Original Score;w;The Hateful Eight;Ennio Morricone  
 2016;16;Best Original Score;;Bridge of Spies;Thomas Newman
 2016;16;Best Original Score;;Carol;Carter Burwell
-2016;16;Best Original Score;;Sicario;JÃ³hann JÃ³hannsson
+2016;16;Best Original Score;;Sicario;Jóhann Jóhannsson
 2016;16;Best Original Score;;Star Wars: The Force Awakens;John Williams
 2016;17;Best Original Song;w;"""Writing's on the Wall"" from Spectre";Music and Lyric by Jimmy Napes and Sam Smith  
 2016;17;Best Original Song;;"""Earned It"" from Fifty Shades of Grey";"Music and Lyric by Ahamad Balshe (Belly), Stephan Moccio, Jason ""Daheala"" Quenneville, and Abel Tesfaye (The Weeknd)"
@@ -96,13 +97,13 @@
 2016;19;Best Production Design;;The Revenant;Jack Fisk and Hamish Purdy
 2016;20;Best Sound Editing;w;Mad Max: Fury Road;Mark A. Mangini and David White  
 2016;20;Best Sound Editing;;The Martian;Oliver Tarney
-2016;20;Best Sound Editing;;The Revenant;Martin HernÃ¡ndez and Lon Bender
+2016;20;Best Sound Editing;;The Revenant;Martin Hernández and Lon Bender
 2016;20;Best Sound Editing;;Sicario;Alan Robert Murray
 2016;20;Best Sound Editing;;Star Wars: The Force Awakens;Matthew Wood and David Acord
 2016;21;Best Sound Mixing;w;Mad Max: Fury Road;Chris Jenkins, Gregg Rudloff, and Ben Osmo  
 2016;21;Best Sound Mixing;;Bridge of Spies;Andy Nelson, Gary Rydstrom, and Drew Kunin
 2016;21;Best Sound Mixing;;The Martian;Paul Massey, Mark Taylor, and Mac Ruth
-2016;21;Best Sound Mixing;;The Revenant;Jon Taylor, Frank A. MontaÃ±o, Randy Thom, and Chris Duesterdiek
+2016;21;Best Sound Mixing;;The Revenant;Jon Taylor, Frank A. Montaño, Randy Thom, and Chris Duesterdiek
 2016;21;Best Sound Mixing;;Star Wars: The Force Awakens;Andy Nelson, Christopher Scarabosio, and Stuart Wilson
 2016;22;Best Visual Effects;w;Ex Machina;Mark Williams Ardington, Sara Bennett, Paul Norris, and Andrew Whitehurst  
 2016;22;Best Visual Effects;;Mad Max: Fury Road;Andrew Jackson, Dan Oliver, Andy Williams, and Tom Wood
@@ -111,7 +112,7 @@
 2016;22;Best Visual Effects;;Star Wars: The Force Awakens;Chris Corbould, Roger Guyett, Paul Kavanagh, and Neal Scanlan
 2016;22;Best Visual Effects;;;
 2016;23;Best Adapted Screenplay;w;The Big Short;Adam McKay and Charles Randolph from The Big Short by Michael Lewis  
-2016;23;Best Adapted Screenplay;;Brooklyn;Nick Hornby from Brooklyn by Colm TÃ³ibÃ­n
+2016;23;Best Adapted Screenplay;;Brooklyn;Nick Hornby from Brooklyn by Colm Tóibín
 2016;23;Best Adapted Screenplay;;Carol;Phyllis Nagy from The Price of Salt by Patricia Highsmith
 2016;23;Best Adapted Screenplay;;The Martian;Drew Goddard from The Martian by Andy Weir
 2016;23;Best Adapted Screenplay;;Room;Emma Donoghue from Room by Emma Donoghue
@@ -130,7 +131,7 @@
 2017;2;Best Actor in a Supporting Role;;Lucas Hedges;Manchester by the Sea as Patrick Chandler
 2017;2;Best Actor in a Supporting Role;;Dev Patel;Lion as Saroo Brierley
 2017;2;Best Actor in a Supporting Role;;Michael Shannon;Nocturnal Animals as Detective Bobby Andes
-2017;3;Best Actress in a Leading Role;;Isabelle Huppert;Elle as MichÃ¨le Leblanc
+2017;3;Best Actress in a Leading Role;;Isabelle Huppert;Elle as Michèle Leblanc
 2017;3;Best Actress in a Leading Role;;Ruth Negga;Loving as Mildred Loving
 2017;3;Best Actress in a Leading Role;;Natalie Portman;Jackie as Jackie Kennedy
 2017;3;Best Actress in a Leading Role;;Emma Stone;La La Land as Mia Dolan
@@ -143,7 +144,7 @@
 2017;5;Best Animated Feature Film;;Kubo and the Two Strings;Travis Knight and Arianne Sutner
 2017;5;Best Animated Feature Film;;Moana;John Musker, Ron Clements, and Osnat Shurer
 2017;5;Best Animated Feature Film;;My Life as a Zucchini;Claude Barras and Max Karli
-2017;5;Best Animated Feature Film;;The Red Turtle;MichaÃ«l Dudok de Wit and Toshio Suzuki
+2017;5;Best Animated Feature Film;;The Red Turtle;Michaël Dudok de Wit and Toshio Suzuki
 2017;5;Best Animated Feature Film;;Zootopia;Byron Howard, Rich Moore, and Clark Spencer
 2017;6;Best Animated Short Film;;Blind Vaysha;Theodore Ushev
 2017;6;Best Animated Short Film;;Borrowed Time;Andrew Coats and Lou Hamou-Lhadj
@@ -166,7 +167,7 @@
 2017;9;Best Director;;Kenneth Lonergan;Manchester by the Sea
 2017;9;Best Director;;Barry Jenkins;Moonlight
 2017;10;Best Documentary Feature;;Fire at Sea;Gianfranco Rosi and Donatella Palermo
-2017;10;Best Documentary Feature;;I Am Not Your Negro;Raoul Peck, RÃ©mi Grellety, and HÃ©bert Peck
+2017;10;Best Documentary Feature;;I Am Not Your Negro;Raoul Peck, Rémi Grellety, and Hébert Peck
 2017;10;Best Documentary Feature;;Life, Animated;Roger Ross Williams and Julie Goldman
 2017;10;Best Documentary Feature;;O.J.: Made in America;Ezra Edelman and Caroline Waterlow
 2017;10;Best Documentary Feature;;13th;Ava DuVernay, Spencer Averick, and Howard Barish
@@ -185,11 +186,11 @@
 2017;13;Best Foreign Language Film;;The Salesman (Iran) in Persian;Asghar Farhadi
 2017;13;Best Foreign Language Film;;Tanna (Australia) in Nauvhal;Martin Butler and Bentley Dean
 2017;13;Best Foreign Language Film;;Toni Erdmann (Germany) in German;Maren Ade
-2017;14;Best Live Action Short Film;;Ennemis intÃ©rieurs;SÃ©lim Azzazi
+2017;14;Best Live Action Short Film;;Ennemis intérieurs;Sélim Azzazi
 2017;14;Best Live Action Short Film;;La Femme et le TGV;Timo von Gunten and Giacun Caduff
 2017;14;Best Live Action Short Film;;Silent Nights;Aske Bang and Kim Magnusson
-2017;14;Best Live Action Short Film;;Sing;KristÃ³f DeÃ¡k and Anna Udvardy
-2017;14;Best Live Action Short Film;;Timecode;Juanjo GimÃ©nez
+2017;14;Best Live Action Short Film;;Sing;Kristóf Deák and Anna Udvardy
+2017;14;Best Live Action Short Film;;Timecode;Juanjo Giménez
 2017;15;Best Makeup and Hairstyling;;A Man Called Ove;Eva von Bahr and Love Larson
 2017;15;Best Makeup and Hairstyling;;Star Trek Beyond;Joel Harlow and Richard Alonzo
 2017;15;Best Makeup and Hairstyling;;Suicide Squad;Alessandro Bertolazzi, Giorgio Gregorini, and Christopher Nelson
@@ -218,11 +219,11 @@
 2017;19;Best Production Design;;La La Land;David Wasco and Sandy Reynolds-Wasco
 2017;19;Best Production Design;;Passengers;Guy Hendrix Dyas and Gene Serdena
 2017;20;Best Sound Editing;;Arrival;Sylvain Bellemare
-2017;20;Best Sound Editing;;Deepwater Horizon;Wylie Stateman and RenÃ©e Tondelli
+2017;20;Best Sound Editing;;Deepwater Horizon;Wylie Stateman and Renée Tondelli
 2017;20;Best Sound Editing;;Hacksaw Ridge;Robert Mackenzie and Andy Wright
 2017;20;Best Sound Editing;;La La Land;Ai-Ling Lee and Mildred Iatrou Morgan
 2017;20;Best Sound Editing;;Sully;Alan Robert Murray and Bub Asman
-2017;21;Best Sound Mixing;;Arrival;Bernard GariÃ©py Strobl and Claude La Haye
+2017;21;Best Sound Mixing;;Arrival;Bernard Gariépy Strobl and Claude La Haye
 2017;21;Best Sound Mixing;;Hacksaw Ridge;Kevin O'Connell, Andy Wright, Robert Mackenzie, and Peter Grace
 2017;21;Best Sound Mixing;;La La Land;Andy Nelson, Ai-Ling Lee, and Steve A. Morrow
 2017;21;Best Sound Mixing;;Rogue One: A Star Wars Story;David Parker, Christopher Scarabosio, and Stuart Wilson

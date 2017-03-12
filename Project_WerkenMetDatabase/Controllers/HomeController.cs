@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data.Entity;
+using Project_WerkenMetDatabase.Models.ViewModels;
+using System.Net;
 
 namespace Project_WerkenMetDatabase.Controllers
 {
@@ -13,6 +16,12 @@ namespace Project_WerkenMetDatabase.Controllers
 
         public ActionResult Index()
         {
+            SeedData sd = new SeedData();
+
+            if(!db.Categories.Any() && !db.Nominees.Any())
+            {
+                sd.RunSeed();
+            }
             return View();
         }
 
@@ -35,21 +44,47 @@ namespace Project_WerkenMetDatabase.Controllers
                     Presidents = Presidents.OrderBy(p => p.StartDate);
                     break;
             }
-            
+
             return View(Presidents);
         }
 
         public ActionResult Categories()
         {
-           
-            return View(db.Categories.ToList());
+            var vCategories = db.Categories.Include(c=> c.Nominees).ToList();
+            return View(vCategories);
         }
 
         public ActionResult Nominees()
         {
-            
+            var Nominees = db.Nominees
+                .Include(n => n.Category)
+                .OrderBy(n => n.OscarYear)
+                .ThenBy(n => n.CategoryId);
 
-            return View(db.Nominees.ToList());
+            return View(Nominees.ToList());
+        }
+
+        public ActionResult CategoriesFilter()
+        {
+            CategoryFilterViewModel vView = new CategoryFilterViewModel();
+            vView.CategoryDropDownList = new SelectList(db.Categories, "id", "CategoryName");
+            //vView.Nominees = new List<Nominee>();
+            vView.Category = db.Categories.Include(c=> c.Nominees).First();
+
+            return View(vView);
+        }
+
+        [HttpPost]
+        public ActionResult CategoriesFilter(CategoryFilterViewModel vView)
+        {
+            vView.CategoryDropDownList = new SelectList(db.Categories, "id", "CategoryName");
+            vView.Category = db.Categories.Include(c => c.Nominees).SingleOrDefault(c => c.Id == vView.SelectedId);
+            if (vView.Category == null)
+            {
+                return new HttpNotFoundResult();
+            }
+
+            return View(vView);
         }
 
         public ActionResult RunSeed()

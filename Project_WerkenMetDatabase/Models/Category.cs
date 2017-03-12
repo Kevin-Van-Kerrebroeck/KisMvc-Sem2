@@ -11,6 +11,8 @@ namespace Project_WerkenMetDatabase.Models
         public int Id { get; set; }
         public string CategoryName { get; set; }
 
+        //nav properties
+        public List<Nominee> Nominees { get; set; }
 
         //Constructors
         public Category()

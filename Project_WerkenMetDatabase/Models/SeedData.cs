@@ -19,7 +19,7 @@ namespace Project_WerkenMetDatabase.Models
             {               
                 return "Cannot run Seed, Data already present in tables";
             }
-            //Run Seed
+            //Run Seed        
             RunSeedFromFile<Category>("Categories",';');
             RunSeedFromFile<Nominee>("Nominees", ';');
             RunSeedFromFile<President>("TestData", ',');

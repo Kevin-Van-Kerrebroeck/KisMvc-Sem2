@@ -11,10 +11,12 @@ namespace Project_WerkenMetDatabase.Models
         public int Id { get; set; }
         public string OscarYear { get; set; }
         public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
-        public string Winner { get; set; }
+        public bool Winner { get; set; }
         public string NomineeName { get; set; }
         public string FromTheMovie { get; set; }
+
+        //Nav Properties
+        public Category Category { get; set; }
 
         //Constructors
         public Nominee()
@@ -26,8 +28,8 @@ namespace Project_WerkenMetDatabase.Models
         {
             OscarYear = vFields[0];
             CategoryId = int.Parse(vFields[1]);
-            CategoryName = vFields[2];
-            Winner = vFields[3];
+            //CategoryName = vFields[2];
+            Winner = (vFields[3].ToUpper() == "W" ? true : false);
             NomineeName = vFields[4];
             FromTheMovie = vFields[5];
         }

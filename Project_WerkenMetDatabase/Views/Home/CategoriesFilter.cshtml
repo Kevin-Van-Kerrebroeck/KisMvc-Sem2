@@ -1,0 +1,64 @@
+﻿@model Project_WerkenMetDatabase.Models.ViewModels.CategoryFilterViewModel
+<style>
+    .main {
+        padding: 15px;
+    }
+
+    .center {
+        border-radius: 0px;
+    }
+
+    .table-hover tbody tr:hover td {
+        background-color: lightblue;
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            @using (Html.BeginForm("CategoriesFilter", "Home", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="main btn-group" role="group">
+                    <label class="btn btn-default">Kies een categorie: </label>
+                    <div class="btn-group" role="group">
+                        @Html.DropDownListFor(v => v.SelectedId, Model.CategoryDropDownList, new { @class = "form-control center" })
+                    </div>
+                    <input type="submit" value="Zoek" class="btn btn-success" />
+                    
+                </div>
+                <span class="glyphicon glyphicon-question-sign"
+                      data-toggle="tooltip"
+                      data-placement="right"
+                      title="Nu Ook Met Relaties!">
+
+                </span>
+            }
+        </div>
+    </div>
+    <div class="row">
+        <h3>@Model.Category.Id.ToString("00") - @Model.Category.CategoryName</h3>
+        <table class="table table-hover table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Person</th>
+                    <th>Movie</th>
+                    <th>Won</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var n in Model.Category.Nominees)
+                {
+                    <tr>
+                        <td>@n.OscarYear</td>
+                        <td>@n.NomineeName</td>
+                        <td>@n.FromTheMovie</td>
+                        <td>@n.Winner</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
