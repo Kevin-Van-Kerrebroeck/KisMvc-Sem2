@@ -17,7 +17,7 @@ namespace Project_WerkenMetDatabase.ApiControllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: api/Nominees
-        public IQueryable<Nominee> GetNominees()
+        public IEnumerable<Nominee> GetNominees()
         {
             return db.Nominees;
         }

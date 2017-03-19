@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using Project_WerkenMetDatabase.Models;
+using Project_WerkenMetDatabase.Models.DataTransferObjects;
 
 namespace Project_WerkenMetDatabase.ApiControllers
 {
@@ -17,9 +18,32 @@ namespace Project_WerkenMetDatabase.ApiControllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: api/Categories
+        [Route("api/Categories")]
         public IEnumerable<Category> GetCategories()
         {
-            return db.Categories;
+            var data = db.Categories.ToList();
+            return data;
+        }
+
+        // GET: api/CategoriesWithNominees
+        [Route("api/CategoriesWithNominees")]
+        public IEnumerable<CategoryDTO> GetCategoriesWithNominees()
+        {
+            var data = db.Categories.Select(c => new CategoryDTO()
+            {
+                Id = c.Id,
+                CategoryName = c.CategoryName,
+                NomineeDTOs = c.Nominees.Select(n => new NomineeDTO()
+                {
+                    Id = n.Id,
+                    OscarYear = n.OscarYear,
+                    CategoryId = n.CategoryId,
+                    Winner = n.Winner,
+                    NomineeName = n.NomineeName,
+                    FromTheMovie = n.FromTheMovie
+                }).ToList()
+            });
+            return data;
         }
 
         // GET: api/Categories/5

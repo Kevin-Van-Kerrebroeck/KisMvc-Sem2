@@ -22,7 +22,7 @@ namespace Project_WerkenMetDatabase.Models
             //Run Seed        
             RunSeedFromFile<Category>("Categories",';');
             RunSeedFromFile<Nominee>("Nominees", ';');
-            RunSeedFromFile<President>("TestData", ',');
+            //RunSeedFromFile<President>("TestData", ',');
 
             return "Seed... Complete!";
         }
